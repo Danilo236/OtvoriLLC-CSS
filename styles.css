@@ -1875,6 +1875,14 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 58px !important;
 }
 
+#wl-form-section {
+  scroll-margin-top: 20px;
+}
+
+#wl-form-section .wl-card {
+  min-height: 540px;
+}
+
 #wl-form-section .wl-inner {
   max-width: 576px;
   margin: 0 auto;
