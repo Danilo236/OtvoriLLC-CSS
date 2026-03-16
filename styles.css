@@ -1951,22 +1951,22 @@ h1, h2, h3, h4, h5, h6 {
 
 #wl-form-section .wl-form__input {
   width: 100%;
-  padding: 14px 16px;
-  border-radius: 8px;
-  border: 1.5px solid #e5e7eb;
-  background-color: #f8fafc;
-  font-size: 1rem;
+  padding: 12px 15px 12px 15px;
+  border-radius: 5px;
+  border: 1px solid #ACACAC87;
+  background-color: #f7fafcFF;
+  font-size: 12px;
   font-family: 'Inter', sans-serif;
-  color: #111827;
+  color: #2c3345FF;
   outline: none;
   transition: border-color 0.2s;
 }
-
+/*
 #wl-form-section .wl-form__input:focus {
   border-color: #E6B800;
   background-color: #ffffff;
 }
-
+*/
 #wl-form-section .wl-form__input::placeholder {
   color: #9ca3af;
 }
