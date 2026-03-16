@@ -1942,12 +1942,12 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   gap: 16px;
 }
- 
-.wl-form__group {
+
+#wl-form-section .wl-form__group {
   width: 100%;
 }
 
-.wl-form__input {
+#wl-form-section .wl-form__input {
   width: 100%;
   padding: 14px 16px;
   border-radius: 8px;
@@ -1960,16 +1960,16 @@ h1, h2, h3, h4, h5, h6 {
   transition: border-color 0.2s;
 }
 
-.wl-form__input:focus {
+#wl-form-section .wl-form__input:focus {
   border-color: #E6B800;
   background-color: #ffffff;
 }
 
-.wl-form__input::placeholder {
+#wl-form-section .wl-form__input::placeholder {
   color: #9ca3af;
 }
 
-.wl-form__checkbox-wrap {
+#wl-form-section .wl-form__checkbox-wrap {
   display: flex;
   align-items: flex-start;
   gap: 12px;
@@ -1979,7 +1979,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
 }
 
-.wl-form__checkbox-wrap input[type="checkbox"] {
+#wl-form-section .wl-form__checkbox-wrap input[type="checkbox"] {
   margin-top: 3px;
   flex-shrink: 0;
   width: 16px;
@@ -1987,12 +1987,12 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
 }
 
-.wl-form__link {
+#wl-form-section .wl-form__link {
   color: #2563eb;
   text-decoration: underline;
 }
 
-.wl-form__btn {
+#wl-form-section .wl-form__btn {
   width: 100%;
   padding: 18px;
   border-radius: 8px;
@@ -2009,18 +2009,18 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.03em;
 }
 
-.wl-form__btn:hover {
+#wl-form-section .wl-form__btn:hover {
   background-color: #f0c200;
   transform: translateY(-1px);
 }
 
-.wl-form__btn:active {
+#wl-form-section .wl-form__btn:active {
   transform: translateY(2px);
   box-shadow: 0 2px 0 #9a7a00;
 }
 
 @media (max-width: 479px) {
-  .wl-form {
+  #wl-form-section .wl-form {
     padding: 20px;
   }
 }
