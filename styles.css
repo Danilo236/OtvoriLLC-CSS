@@ -1829,14 +1829,6 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 20px 60px rgba(0,0,0,0.35), 0 0 0 1px rgba(255,255,255,0.08);
 }
 
-#wl-form-section .wl-card iframe {
-  width: 100%;
-  height: 440px;
-  border: none;
-  border-radius: 3px;
-  display: block;
-}
-
 /* ── Countdown ── */
 #wl-form-section .wl-countdown {
   display: flex;
@@ -1942,10 +1934,100 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Inter', sans-serif;
 }
 
+/* Na dole je novi css za novu native formu (do Responsive dela) */
+
+.wl-form {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.wl-form__group {
+  width: 100%;
+}
+
+.wl-form__input {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 8px;
+  border: 1.5px solid #e5e7eb;
+  background-color: #f8fafc;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  color: #111827;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.wl-form__input:focus {
+  border-color: #E6B800;
+  background-color: #ffffff;
+}
+
+.wl-form__input::placeholder {
+  color: #9ca3af;
+}
+
+.wl-form__checkbox-wrap {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 0.875rem;
+  color: #4b5563;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+}
+
+.wl-form__checkbox-wrap input[type="checkbox"] {
+  margin-top: 3px;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.wl-form__link {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.wl-form__btn {
+  width: 100%;
+  padding: 18px;
+  border-radius: 8px;
+  background-color: #E6B800;
+  color: #0a1628;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-size: 1rem;
+  border: none;
+  box-shadow: 0 4px 0 #9a7a00;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.wl-form__btn:hover {
+  background-color: #f0c200;
+  transform: translateY(-1px);
+}
+
+.wl-form__btn:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #9a7a00;
+}
+
+@media (max-width: 479px) {
+  .wl-form {
+    padding: 20px;
+  }
+}
+
 /* ── Responsive ── */
 @media (max-width: 479px) {
   #wl-form-section { padding: 48px 16px; }
-  #wl-form-section .wl-card iframe { height: 500px; }
   #wl-form-section .wl-cd-row { gap: 2px; }
 }
 
