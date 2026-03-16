@@ -1773,11 +1773,11 @@ h1, h2, h3, h4, h5, h6 {
 #wl-form-section {
   scroll-margin-top: 20px;
 }
-
+/*
 #wl-form-section .wl-card {
   min-height: 440px !important;
 }
-
+*/
 #wl-form-section .wl-inner {
   max-width: 576px;
   margin: 0 auto;
@@ -1936,7 +1936,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Na dole je novi css za novu native formu (do Responsive dela) */
 
-.wl-form {
+#wl-form-section .wl-form {
   padding: 32px;
   display: flex;
   flex-direction: column;
