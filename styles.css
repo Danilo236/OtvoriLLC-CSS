@@ -1936,13 +1936,17 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Inter', sans-serif;
 }
 
+
+
+
 /* Na dole je novi css za novu native formu (do Responsive dela) */
 
 #wl-form-section .wl-form {
-  padding: 40px 20px 30px 20px;
+  padding: 40px 20px 48px 20px;
   display: flex;
   flex-direction: column;
   gap: 16px;
+  box-shadow: 0px 4px 4px 0px #57647E00;
 }
 
 #wl-form-section .wl-form__group {
@@ -1951,7 +1955,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #wl-form-section .wl-form__input {
   width: 100%;
-  padding: 12px 15px 12px 15px;
+  padding: 13px 15px 13px 15px;
   border-radius: 5px;
   border: 1px solid #ACACAC87;
   background-color: #f7fafcFF;
@@ -1969,16 +1973,19 @@ h1, h2, h3, h4, h5, h6 {
 */
 #wl-form-section .wl-form__input::placeholder {
   color: #9ca3af;
+  font-weight: 300;
+  line-height: 1.5rem;
 }
 
 #wl-form-section .wl-form__checkbox-wrap {
   display: flex;
   align-items: flex-start;
-  gap: 12px;
+  gap: 20px;
   font-size: 0.875rem;
-  color: #4b5563;
+  color: #2c3345;
   font-family: 'Inter', sans-serif;
   line-height: 1.5;
+  font-weight: 500;
 }
 
 #wl-form-section .wl-form__checkbox-wrap input[type="checkbox"] {
@@ -1994,9 +2001,13 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: underline;
 }
 
+#wl-form-section .wl-terms {
+	font-weight: 400 !important;
+}
+
 #wl-form-section .wl-form__btn {
   width: 100%;
-  padding: 10px 10px 15px 10px;
+  padding: 20px 10px 20px 10px;
   border-radius: 10px;
   background-color: #e6b800FF;
   color: #0a1628;
@@ -2007,8 +2018,8 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 3px 0px 15px 3px #00000000;
   cursor: pointer;
   transition: background-color 0.2s, transform 0.1s;
-  text-transform: uppercase;
   letter-spacing: 0.03em;
+  margin-top: 20px;
 }
 
 #wl-form-section .wl-form__btn:hover {
@@ -2036,4 +2047,3 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 480px) {
   #wl-form-section .wl-cd-row { gap: 8px; }
 }
-
