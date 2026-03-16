@@ -1773,11 +1773,13 @@ h1, h2, h3, h4, h5, h6 {
 #wl-form-section {
   scroll-margin-top: 20px;
 }
+
 /*
 #wl-form-section .wl-card {
   min-height: 440px !important;
 }
 */
+
 #wl-form-section .wl-inner {
   max-width: 576px;
   margin: 0 auto;
@@ -1937,7 +1939,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Na dole je novi css za novu native formu (do Responsive dela) */
 
 #wl-form-section .wl-form {
-  padding: 32px;
+  padding: 40px 20px 30px 20px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -1994,15 +1996,15 @@ h1, h2, h3, h4, h5, h6 {
 
 #wl-form-section .wl-form__btn {
   width: 100%;
-  padding: 18px;
-  border-radius: 8px;
-  background-color: #E6B800;
+  padding: 10px 10px 15px 10px;
+  border-radius: 10px;
+  background-color: #e6b800FF;
   color: #0a1628;
   font-family: 'Inter', sans-serif;
-  font-weight: 900;
-  font-size: 1rem;
+  font-weight: 700;
+  font-size: 13px;
   border: none;
-  box-shadow: 0 4px 0 #9a7a00;
+  box-shadow: 3px 0px 15px 3px #00000000;
   cursor: pointer;
   transition: background-color 0.2s, transform 0.1s;
   text-transform: uppercase;
