@@ -1983,6 +1983,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Inter', sans-serif;
   margin-top: 6px;
   display: none;
+  text-align: left;
 }
 
 #wl-form-section .wl-form__error.visible {
