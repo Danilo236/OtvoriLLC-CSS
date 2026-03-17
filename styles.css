@@ -2050,7 +2050,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px;
   }
 }
-
+ 
 /* ── Responsive ── */
 @media (max-width: 479px) {
   #wl-form-section { padding: 48px 16px; }
