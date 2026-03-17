@@ -1977,6 +1977,22 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5rem;
 }
 
+#wl-form-section .wl-form__error {
+  color: #cb3837;
+  font-size: 0.875rem;
+  font-family: 'Inter', sans-serif;
+  margin-top: 6px;
+  display: none;
+}
+
+#wl-form-section .wl-form__error.visible {
+  display: block;
+}
+
+#wl-form-section .wl-form__input.error {
+  border-color: #DC2626;
+}
+
 #wl-form-section .wl-form__checkbox-wrap {
   display: flex;
   align-items: flex-start;
