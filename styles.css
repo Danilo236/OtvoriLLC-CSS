@@ -1979,7 +1979,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #wl-form-section .wl-form__error {
   color: #cb3837;
-  font-size: 0.875rem;
+  font-size: 10px;
   font-family: 'Inter', sans-serif;
   margin-top: 6px;
   display: none;
